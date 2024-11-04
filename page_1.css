@@ -1,0 +1,222 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #18181b;
+}
+
+#header {
+    height: 116px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #27272A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 48px;
+    width: 100%;
+}
+
+.main-menu {
+    height: 47px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #494949;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ad-banner {
+    height: 160px;
+}
+
+.content {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-description {
+    background-color: #27272A;
+    padding: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.tags {
+    background-color: #171717;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.movie-title {
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.paragraph {
+    padding-top: 25px;
+    color: #ffffff;
+}
+
+.imdb-thumbnail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imdb-container {
+    display: flex;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.imdb-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #18181b;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.imdb-thumbnail {
+    padding: 15px;
+}
+
+.imdb-image {
+    height: 260px;
+    width: 160px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.imdb-content {
+    padding: 4px;
+    flex: 2 1 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imdb-title {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.imdb-meta {
+    display: flex;
+    gap: 5px;
+}
+
+.imdb-rating {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imdb-star {
+    flex-wrap: wrap;
+}
+
+.imdb-score {
+    color: black;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 48px;
+    font-size: 15px;
+}
+
+.imdb-footer {
+    margin: 15px;
+}
+
+.download-section {
+    text-align: center;
+}
+
+.info-heading {
+    color: #008080;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 10px;
+}
+
+li {
+    color: #ffffff;
+    margin: 5px;
+}
+
+strong {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text-color {
+    color: #ffffff;
+}
+
+.screenshot-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.download-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #008080;
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 40px;
+    width: 220px;
+    border-radius: 8px;
+    background-color: #009987;
+}
+
+.download-size {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+
+    .movie-description {
+        background-color: #27272A;
+        padding: 5px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
